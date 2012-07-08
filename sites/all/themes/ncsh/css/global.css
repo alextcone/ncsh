@@ -34,4 +34,29 @@ hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px
 a { color: #333; text-decoration: underline; outline: 0; }
 a:hover, a:focus { color: #000; }
 
+/* #Sitewide header */
+
+#logo { display: block; margin: 10px auto; max-width: 354px; }
+
+.zone-menu-wrapper ul.menu { position: relative; left: 0; display: block; float: left; margin: 0 10px 0 0; }
+.zone-menu-wrapper ul.menu li { display: block; float: left; margin: 7px 10px 0 0;}
+.zone-menu-wrapper ul.menu li a { color: #f6f6f6; font-weight: bold; text-decoration: none; text-transform: uppercase; }
+.zone-menu-wrapper ul.menu li a.active { color: #fff; }
+
+.zone-menu-wrapper { min-height: 40px; background-color: #ffc867; background-image: -moz-linear-gradient(top,#ffc867 0%,#fdc25a 100%); background-image: -webkit-linear-gradient(top,#ffc867 0%,#fdc25a 100%); background-image: -o-linear-gradient(top,#ffc867 0%,#fdc25a 100%); background-image: -ms-linear-gradient(top,#ffc867 0%,#fdc25a 100%); background-image: linear-gradient(top,#ffc867 0%,#fdc25a 100%); background-repeat: repeat-x;
+filter: progid:dximagetransform.microsoft.gradient(startColorstr='#333333',endColorstr='#222222',GradientType=0); -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25),inset 0 -1px 0 rgba(0, 0, 0, 0.1); -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.25),inset 0 -1px 0 rgba(0,0,0,0.1); box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25),inset 0 -1px 0 rgba(0, 0, 0, 0.1); position: relative; z-index: 100; }
+
+/* #Sitewide Titles */
+
+h1.title { margin: 20px 0; } 
+
+/* #About Page */
+
+.zone-header-wrapper ul.menu { position: relative; left: 0; display: block; float: left; margin: 0 10px 0 0; }
+.zone-header-wrapper ul.menu li { display: block; float: left; margin: 7px 10px 0 0;}
+.zone-header-wrapper ul.menu li a { color: #58a2fe; font-weight: bold; text-decoration: none; text-transform: none; }
+.zone-header-wrapper ul.menu li a:hover { color: #3c93ff; }
+.zone-header-wrapper ul.menu li a.active { color: #58a2fe; }
+.zone-header-wrapper { min-height: 40px; background-color: #f0f0f0; }
+
 .views_slideshow_main img {max-width: 380px;}

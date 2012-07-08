@@ -1,3 +1,5 @@
 /* This file will hold styles that are loaded using the same media query as the wide grid. */
 
+.not-front .container-12 .grid-6 { width: 1180px !important; }
+
 .views_slideshow_main img {max-width: 702px;}
