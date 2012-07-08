@@ -39,6 +39,7 @@ Disallow: /update.php
 Disallow: /UPGRADE.txt
 Disallow: /xmlrpc.php
 # Paths (clean URLs)
+Disallow: /
 Disallow: /admin/
 Disallow: /comment/reply/
 Disallow: /filter/tips/
