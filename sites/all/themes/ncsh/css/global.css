@@ -17,6 +17,7 @@ body { background: #fff; font: 14px/1.6 Helvetica, Arial, sans-serif; color: #33
 
 /* #Typography
 ================================================== */
+
 h1, h2, h3, h4, h5, h6 { color: #111; font-weight: bold; }
 h1 { font-size: 60px; line-height: 1.1; }
 h2 { font-size: 48px; line-height: 1.2; }
@@ -24,7 +25,7 @@ h3 { font-size: 36px; line-height: 1.3; }
 h4 { font-size: 24px; line-height: 1.4; }
 h5 { font-size: 21px; line-height: 1.5; }
 h6 { font-size: 18px; line-height: 1.6; }
-p { margin: 0 0 20px 0; }
+p { font-family: 'LinuxLibertineRegular', serif; font-size: 20px; margin: 0 0 20px 0; }
 em { font-style: italic; }
 strong { font-weight: bold; }
 hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
@@ -33,6 +34,7 @@ hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px
 ================================================== */
 a { color: #333; text-decoration: underline; outline: 0; }
 a:hover, a:focus { color: #000; }
+a#espanol { display: block; float: right; text-decoration: none; }
 
 /* #Sitewide header */
 
@@ -52,11 +54,13 @@ h1.title { margin: 20px 0; }
 
 /* #About Page */
 
+.sticky { position: fixed; top: 0; left: auto; width: 100%; z-index: 200; }
+
 .zone-header-wrapper ul.menu { position: relative; left: 0; display: block; float: left; margin: 0 10px 0 0; }
-.zone-header-wrapper ul.menu li { display: block; float: left; margin: 7px 10px 0 0;}
+.zone-header-wrapper ul.menu li { display: block; float: left; margin: 7px 10px 6px 0;}
 .zone-header-wrapper ul.menu li a { color: #58a2fe; font-weight: bold; text-decoration: none; text-transform: none; }
 .zone-header-wrapper ul.menu li a:hover { color: #3c93ff; }
 .zone-header-wrapper ul.menu li a.active { color: #58a2fe; }
-.zone-header-wrapper { min-height: 40px; background-color: #f0f0f0; }
+.zone-header-wrapper { min-height: 40px; background-color: #f0f0f0; border-bottom: 1px solid #b5b6b6; }
 
-.views_slideshow_main img {max-width: 380px;}
+.views_slideshow_main img {max-width: 100%;}
