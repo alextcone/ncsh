@@ -1,7 +1,7 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 
-/* #Reset & Basics (Inspired by E. Meyers)
+/* Reset & Basics (Inspired by E. Meyers)
 ================================================== */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
 body { line-height: 1; }
@@ -10,11 +10,11 @@ blockquote, q { quotes: none; }
 blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
 table { border-collapse: collapse; border-spacing: 0; }
 
-/* #Basic Styles
+/* Basic Styles
 ================================================== */
 body { background: #fff; font: 14px/1.6 Helvetica, Arial, sans-serif; color: #333; -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */ -webkit-text-size-adjust: 100%; }
 
-/* #Typography
+/* Typography
 ================================================== */
 
 h1, h2, h3, h4, h5, h6 { color: #111; font-weight: bold; }
@@ -29,13 +29,13 @@ em { font-style: italic; }
 strong { font-weight: bold; }
 hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
 
-/* #Links
+/* Links
 ================================================== */
 a { color: #333; text-decoration: underline; outline: 0; }
 a:hover, a:focus { color: #000; }
 a#espanol { display: block; float: right; text-decoration: none; }
 
-/* #Sitewide header */
+/* Sitewide header */
 
 #logo { display: block; margin: 10px auto; max-width: 354px; }
 
@@ -47,11 +47,18 @@ a#espanol { display: block; float: right; text-decoration: none; }
 .zone-menu-wrapper { min-height: 40px; background-color: #ffc867; background-image: -moz-linear-gradient(top,#ffc867 0%,#fdc25a 100%); background-image: -webkit-linear-gradient(top,#ffc867 0%,#fdc25a 100%); background-image: -o-linear-gradient(top,#ffc867 0%,#fdc25a 100%); background-image: -ms-linear-gradient(top,#ffc867 0%,#fdc25a 100%); background-image: linear-gradient(top,#ffc867 0%,#fdc25a 100%); background-repeat: repeat-x;
 filter: progid:dximagetransform.microsoft.gradient(startColorstr='#333333',endColorstr='#222222',GradientType=0); -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25),inset 0 -1px 0 rgba(0, 0, 0, 0.1); -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.25),inset 0 -1px 0 rgba(0,0,0,0.1); box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25),inset 0 -1px 0 rgba(0, 0, 0, 0.1); position: relative; z-index: 100; }
 
-/* #Sitewide Titles */
+/* Sitewide Titles */
 
-h1.title { margin: 20px 0; } 
+h1.title { margin: 20px 0; }
 
-/* #About Page */
+/* Homepage */
+
+.flex-nav-container { margin-top: 30px; }
+.flexslider { margin-bottom: 30px; -webkit-border-radius: 0; -moz-border-radius: 0; -o-border-radius: 0; border-radius: 0; }
+
+.front .region-sidebar-second { margin-top: 30px; }
+
+/* About */
 
 .sticky { position: fixed; top: 0; left: auto; width: 100%; z-index: 200; }
 
@@ -61,5 +68,3 @@ h1.title { margin: 20px 0; }
 .zone-header-wrapper ul.menu li a:hover { color: #3c93ff; }
 .zone-header-wrapper ul.menu li a.active { color: #58a2fe; }
 .zone-header-wrapper { min-height: 40px; background-color: #f0f0f0; border-bottom: 1px solid #b5b6b6; }
-
-.flex-nav-container { margin-top: 30px; }
