@@ -3,5 +3,3 @@
  *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
 
 .not-front .container-12 .grid-6 { width: 940px !important; }
- 
-.views_slideshow_main img {max-width: 702px;}
