@@ -12,3 +12,8 @@
 .zone-menu-wrapper ul.menu li.last a { color: #58a2fe; }
 .front .region-sidebar-second { margin-top: 30px; }
 .not-front .container-12 .grid-6 { width: 940px !important; }
+
+/* Footer */
+
+#webform-component-email input[type="text"] { width: 260px; }
+#webform-component-comment-or-question textarea { height: 76px; width: 260px; }

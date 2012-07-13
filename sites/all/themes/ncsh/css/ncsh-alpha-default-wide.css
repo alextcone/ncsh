@@ -11,3 +11,8 @@
 .front .region-sidebar-second { margin-top: 30px; }
 .front .block-7 { margin-top: 20px; }
 .not-front .container-12 .grid-6 { width: 1180px !important; }
+
+/* Footer */
+
+#webform-component-email input[type="text"] { width: 280px; }
+#webform-component-comment-or-question textarea { height: 76px; width: 280px; }
