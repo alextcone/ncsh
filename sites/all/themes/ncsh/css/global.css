@@ -12,9 +12,10 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 /* Basic Styles
 ================================================== */
+html { background: #fff; }
 body { background: #f6f6f6; font: 14px/1.6 Helvetica, Arial, sans-serif; color: #333; -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */ -webkit-text-size-adjust: 100%; }
 header { background: #fff; }
-section.section-content { background: #fff; }
+.zone-content-wrapper, .zone-postscript-wrapper { background: #fff; }
 
 /* Typography
 ================================================== */
@@ -42,44 +43,18 @@ a.btn-large { padding: 9px 14px; font-size: 15px; line-height: normal; -webkit-b
 a.btn:hover { color: #333333; text-decoration: none; background-color: #e6e6e6; *background-color: #d9d9d9; /* Buttons in IE7 don't get borders, so darken on hover */ background-position: 0 -15px; -webkit-transition: background-position 0.1s linear; -moz-transition: background-position 0.1s linear; -ms-transition: background-position 0.1s linear; -o-transition: background-position 0.1s linear; transition: background-position 0.1s linear; }
 a.btn:focus { outline: thin dotted #333; outline: 5px auto -webkit-focus-ring-color; outline-offset: -2px; }
 a.btn.active, a.btn:active { background-color: #e6e6e6; background-color: #d9d9d9 \9; background-image: none; outline: 0; -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05); -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05); box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05); }
-a.red {
-  background-color: #da4f49;
-  *background-color: #bd362f;
-  background-image: -ms-linear-gradient(top, #ee5f5b, #bd362f);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ee5f5b), to(#bd362f));
-  background-image: -webkit-linear-gradient(top, #ee5f5b, #bd362f);
-  background-image: -o-linear-gradient(top, #ee5f5b, #bd362f);
-  background-image: -moz-linear-gradient(top, #ee5f5b, #bd362f);
-  background-image: linear-gradient(top, #ee5f5b, #bd362f);
-  background-repeat: repeat-x;
-  border-color: #bd362f #bd362f #802420;
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  color: #fff;
-  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ee5f5b', endColorstr='#bd362f', GradientType=0);
-  filter: progid:dximagetransform.microsoft.gradient(enabled=false);
-}
+a.red { background-color: #da4f49; *background-color: #bd362f; background-image: -ms-linear-gradient(top, #ee5f5b, #bd362f); background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ee5f5b), to(#bd362f)); background-image: -webkit-linear-gradient(top, #ee5f5b, #bd362f); background-image: -o-linear-gradient(top, #ee5f5b, #bd362f); background-image: -moz-linear-gradient(top, #ee5f5b, #bd362f); background-image: linear-gradient(top, #ee5f5b, #bd362f); background-repeat: repeat-x; border-color: #bd362f #bd362f #802420; border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25); color: #fff; filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ee5f5b', endColorstr='#bd362f', GradientType=0); filter: progid:dximagetransform.microsoft.gradient(enabled=false); }
 
-a.red:hover,
-a.red:active,
-a.red.active,
-a.red.disabled,
-a.red[disabled] {
-  background-color: #bd362f;
-  *background-color: #a9302a;
-  color: #f6f6f6;
-}
+a.red:hover, a.red:active, a.red.active, a.red.disabled, a.red[disabled] { background-color: #bd362f; *background-color: #a9302a; color: #f6f6f6; }
 
-a.red:active,
-a.red.active {
-  background-color: #942a25 \9;
-}
+a.red:active, a.red.active { background-color: #942a25 \9; }
 
 /* Sitewide header */
 
 #logo { display: block; margin: 10px auto; max-width: 354px; }
 
 .zone-menu-wrapper ul.menu { display: inline; line-height: 1; margin: 0; }
-.zone-menu-wrapper ul.menu li { display: inline; float: left; padding: 15px 12px 12px;}
+.zone-menu-wrapper ul.menu li { display: inline; float: left; padding: 15px 12px 12px; }
 .zone-menu-wrapper ul.menu li.last { float: right; }
 .zone-menu-wrapper ul.menu li a { color: #fff; font-weight: bold; text-decoration: none; text-transform: uppercase; }
 .zone-menu-wrapper ul.menu li a:hover { color: #f6f6f6; }
@@ -90,7 +65,7 @@ filter: progid:dximagetransform.microsoft.gradient(startColorstr='#333333',endCo
 
 /* Sitewide Titles */
 
-h1.title { margin: 20px 0; }
+h1.title { margin: 0; padding: 35px 0 20px; }
 h2.block-title { font-size: 24px; line-height: 1.4; margin: 0 0 6px; text-align: center; text-transform: uppercase; }
 
 /* Homepage */
@@ -103,38 +78,23 @@ h2.block-title { font-size: 24px; line-height: 1.4; margin: 0 0 6px; text-align:
 .views-field-field-article-publication-date { font-style: italic; }
 .front .block-7, .front .block-8, .front .block-9, .front .block-10 { margin-bottom: 25px; text-align: center; }
 a#homework { background: transparent url(/sites/all/themes/ncsh/img/folder.png) no-repeat 50% 50%; display: block; height: 106px; margin-top: 25px; width: 126px; }
-input[type="text"] {
-  background-color: #ffffff;
-  border: 1px solid #cccccc;
-  -webkit-border-radius: 3px;
-     -moz-border-radius: 3px;
-          border-radius: 3px;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
-     -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
-      -ms-transition: border linear 0.2s, box-shadow linear 0.2s;
-       -o-transition: border linear 0.2s, box-shadow linear 0.2s;
-          transition: border linear 0.2s, box-shadow linear 0.2s;
-          height: 30px;
-}
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input { background-color: #fff; border: 1px solid #ccc; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); -webkit-transition: border linear 0.2s, box-shadow linear 0.2s; -moz-transition: border linear 0.2s, box-shadow linear 0.2s; -ms-transition: border linear 0.2s, box-shadow linear 0.2s; -o-transition: border linear 0.2s, box-shadow linear 0.2s; transition: border linear 0.2s, box-shadow linear 0.2s; height: 30px; }
 .front .block-10 h2.block-title { color: #ffc867; }
 
 /* About */
 
 .sticky { position: fixed; top: 0; left: auto; width: 100%; z-index: 200; }
-
-.zone-header-wrapper ul.menu { position: relative; left: 0; display: block; float: left; margin: 0 10px 0 0; }
-.zone-header-wrapper ul.menu li { display: block; float: left; margin: 7px 10px 6px 0;}
+.zone-header-wrapper ul.menu { display: inline; line-height: 1; margin: 0; }
+.zone-header-wrapper ul.menu li { display: inline; float: left; padding: 15px 12px 12px; }
 .zone-header-wrapper ul.menu li a { color: #58a2fe; font-weight: bold; text-decoration: none; text-transform: none; }
 .zone-header-wrapper ul.menu li a:hover { color: #3c93ff; }
 .zone-header-wrapper ul.menu li a.active { color: #58a2fe; }
 .zone-header-wrapper { min-height: 40px; background-color: #f0f0f0; border-bottom: 1px solid #b5b6b6; }
 
 /* Sitewide Footer */
-footer { background: #f6f6f6; }
+footer { background: #f6f6f6; color: #c0c0c0; }
 footer a:link, footer a:visited { color: #c0c0c0; }
 footer ul li.leaf { list-style-image: none; list-style-type: none; }
 footer ul.menu li { margin-left: 0; }
-footer .region-footer-first { margin-top: 30px; margin-bottom: 30px;}
+footer .region-footer-first, footer .region-footer-second, footer .region-footer-third, footer .region-footer-fourth { margin-top: 30px; margin-bottom: 30px;}
+footer .block-webform h2 { color: #C0C0C0; font-size: 14px; padding-top: 2px; text-align: left; text-transform: capitalize; }
