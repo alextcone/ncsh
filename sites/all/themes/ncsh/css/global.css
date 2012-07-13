@@ -1,8 +1,7 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 
-/* Reset & Basics (Inspired by E. Meyers)
-================================================== */
+/* Reset & Basics (Inspired by E. Meyers) */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
 body { line-height: 1; }
 ol, ul { list-style: none; }
@@ -10,15 +9,13 @@ blockquote, q { quotes: none; }
 blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
 table { border-collapse: collapse; border-spacing: 0; }
 
-/* Basic Styles
-================================================== */
+/* Basic Styles  */
 html { background: #fff; }
 body { background: #f6f6f6; font: 14px/1.6 Helvetica, Arial, sans-serif; color: #333; -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */ -webkit-text-size-adjust: 100%; }
 header { background: #fff; }
 .zone-content-wrapper, .zone-postscript-wrapper { background: #fff; }
 
-/* Typography
-================================================== */
+/* Typography */
 
 h1, h2, h3, h4, h5, h6 { color: #111; font-weight: bold; }
 h1 { font-size: 60px; line-height: 1.1; }
@@ -32,8 +29,8 @@ em { font-style: italic; }
 strong { font-weight: bold; }
 hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
 
-/* Links
-================================================== */
+/* Links */
+
 a { color: #333; text-decoration: underline; outline: 0; }
 a:link, a:visited { color: #58a2fe; font-weight: bold; text-decoration: none; }
 a:hover, a:focus { color: #000; }
@@ -44,24 +41,20 @@ a.btn:hover { color: #333333; text-decoration: none; background-color: #e6e6e6; 
 a.btn:focus { outline: thin dotted #333; outline: 5px auto -webkit-focus-ring-color; outline-offset: -2px; }
 a.btn.active, a.btn:active { background-color: #e6e6e6; background-color: #d9d9d9 \9; background-image: none; outline: 0; -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05); -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05); box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05); }
 a.red { background-color: #da4f49; *background-color: #bd362f; background-image: -ms-linear-gradient(top, #ee5f5b, #bd362f); background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ee5f5b), to(#bd362f)); background-image: -webkit-linear-gradient(top, #ee5f5b, #bd362f); background-image: -o-linear-gradient(top, #ee5f5b, #bd362f); background-image: -moz-linear-gradient(top, #ee5f5b, #bd362f); background-image: linear-gradient(top, #ee5f5b, #bd362f); background-repeat: repeat-x; border-color: #bd362f #bd362f #802420; border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25); color: #fff; filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ee5f5b', endColorstr='#bd362f', GradientType=0); filter: progid:dximagetransform.microsoft.gradient(enabled=false); }
-
 a.red:hover, a.red:active, a.red.active, a.red.disabled, a.red[disabled] { background-color: #bd362f; *background-color: #a9302a; color: #f6f6f6; }
-
 a.red:active, a.red.active { background-color: #942a25 \9; }
 
 /* Sitewide header */
 
-#logo { display: block; margin: 10px auto; max-width: 354px; }
-
+#logo { display: block; margin: 10px auto; max-width: 300px; }
+.zone-menu-wrapper { background-color: #ffc867; background-image: -moz-linear-gradient(top,#ffc867 0%,#fdc25a 100%); background-image: -webkit-linear-gradient(top,#ffc867 0%,#fdc25a 100%); background-image: -o-linear-gradient(top,#ffc867 0%,#fdc25a 100%); background-image: -ms-linear-gradient(top,#ffc867 0%,#fdc25a 100%); background-image: linear-gradient(top,#ffc867 0%,#fdc25a 100%); background-repeat: repeat-x;
+filter: progid:dximagetransform.microsoft.gradient(startColorstr='#333333',endColorstr='#222222',GradientType=0); -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25),inset 0 -1px 0 rgba(0, 0, 0, 0.1); -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.25),inset 0 -1px 0 rgba(0,0,0,0.1); box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25),inset 0 -1px 0 rgba(0, 0, 0, 0.1); position: relative; z-index: 100; }
 .zone-menu-wrapper ul.menu { display: inline; line-height: 1; margin: 0; }
 .zone-menu-wrapper ul.menu li { display: inline; float: left; padding: 15px 12px 12px; }
 .zone-menu-wrapper ul.menu li.last { float: right; }
 .zone-menu-wrapper ul.menu li a { color: #fff; font-weight: bold; text-decoration: none; text-transform: uppercase; }
 .zone-menu-wrapper ul.menu li a:hover { color: #f6f6f6; }
 .zone-menu-wrapper ul.menu li a.active { color: #fff; }
-
-.zone-menu-wrapper { background-color: #ffc867; background-image: -moz-linear-gradient(top,#ffc867 0%,#fdc25a 100%); background-image: -webkit-linear-gradient(top,#ffc867 0%,#fdc25a 100%); background-image: -o-linear-gradient(top,#ffc867 0%,#fdc25a 100%); background-image: -ms-linear-gradient(top,#ffc867 0%,#fdc25a 100%); background-image: linear-gradient(top,#ffc867 0%,#fdc25a 100%); background-repeat: repeat-x;
-filter: progid:dximagetransform.microsoft.gradient(startColorstr='#333333',endColorstr='#222222',GradientType=0); -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25),inset 0 -1px 0 rgba(0, 0, 0, 0.1); -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.25),inset 0 -1px 0 rgba(0,0,0,0.1); box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25),inset 0 -1px 0 rgba(0, 0, 0, 0.1); position: relative; z-index: 100; }
 
 /* Sitewide Titles */
 
@@ -83,18 +76,20 @@ textarea, input[type="text"], input[type="password"], input[type="datetime"], in
 
 /* About */
 
+.zone-header-wrapper { min-height: 40px; background-color: #f0f0f0; border-bottom: 1px solid #b5b6b6; }
 .sticky { position: fixed; top: 0; left: auto; width: 100%; z-index: 200; }
 .zone-header-wrapper ul.menu { display: inline; line-height: 1; margin: 0; }
 .zone-header-wrapper ul.menu li { display: inline; float: left; padding: 15px 12px 12px; }
 .zone-header-wrapper ul.menu li a { color: #58a2fe; font-weight: bold; text-decoration: none; text-transform: none; }
 .zone-header-wrapper ul.menu li a:hover { color: #3c93ff; }
 .zone-header-wrapper ul.menu li a.active { color: #58a2fe; }
-.zone-header-wrapper { min-height: 40px; background-color: #f0f0f0; border-bottom: 1px solid #b5b6b6; }
 
 /* Sitewide Footer */
+
 footer { background: #f6f6f6; color: #c0c0c0; }
 footer a:link, footer a:visited { color: #c0c0c0; }
 footer ul li.leaf { list-style-image: none; list-style-type: none; }
 footer ul.menu li { margin-left: 0; }
 footer .region-footer-first, footer .region-footer-second, footer .region-footer-third, footer .region-footer-fourth { margin-top: 30px; margin-bottom: 30px;}
 footer .block-webform h2 { color: #C0C0C0; font-size: 14px; padding-top: 2px; text-align: left; text-transform: capitalize; }
+footer .block-block-12 { border: 2px solid #c0c0c0; }
