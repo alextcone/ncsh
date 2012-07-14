@@ -27,6 +27,8 @@ p { font-family: 'LinuxLibertineRegular', serif; font-size: 20px; margin: 0 0 20
 em { font-style: italic; }
 strong { font-weight: bold; }
 hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
+.bold { font-weight: bold; }
+.italic { font-style: italic; }
 
 /* Links */
 
@@ -75,7 +77,7 @@ filter: progid:dximagetransform.microsoft.gradient(startColorstr='#333333',endCo
 .front .views-row-last { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
 .views-field-field-article-publication-date { font-style: italic; }
 .front .block-7, .front .block-8, .front .block-9, .front .block-10 { margin-bottom: 25px; text-align: center; }
-a#homework { background: transparent url(/sites/all/themes/ncsh/img/folder.png) no-repeat 50% 50%; display: block; height: 106px; margin-top: 25px; width: 126px; }
+a#homework { background: transparent url(/sites/all/themes/ncsh/img/box.png) no-repeat 50% 50%; display: block; height: 100px; margin-top: 20px; width: 115px; }
 textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input { background-color: #fff; border: 1px solid #ccc; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); -webkit-transition: border linear 0.2s, box-shadow linear 0.2s; -moz-transition: border linear 0.2s, box-shadow linear 0.2s; -ms-transition: border linear 0.2s, box-shadow linear 0.2s; -o-transition: border linear 0.2s, box-shadow linear 0.2s; transition: border linear 0.2s, box-shadow linear 0.2s; height: 30px; }
 .front .block-10 h2.block-title { color: #ffc867; }
 .front .zone-content { margin-bottom: 20px; }
@@ -91,6 +93,14 @@ textarea, input[type="text"], input[type="password"], input[type="datetime"], in
 .zone-header-wrapper ul.menu li a:hover { color: #3c93ff; }
 .zone-header-wrapper ul.menu li a.active { color: #58a2fe; }
 
+/* All subpage sidebar second */
+
+.not-front .region-sidebar-second { padding: 50px 0 0; }
+.not-front .region-sidebar-second .block { margin: 0 0 30px; }
+.not-front .region-sidebar-second h2.block-title { text-align: left; }
+.not-front .region-sidebar-second p { font: 14px/1.6 Helvetica, Arial, sans-serif; }
+.not-front .region-sidebar-second .block-inner { border: 1px solid #c0c0c0; padding: 20px 20px 0; }
+.context-board .region-sidebar-second .views-field-field-date { margin: 10px 0; }
 /* Sitewide Footer */
 
 footer { background: #f6f6f6; border-top: 1px solid #c0c0c0; color: #c0c0c0; }
@@ -102,6 +112,6 @@ footer .block-webform h2 { color: #C0C0C0; font-size: 14px; padding-top: 2px; te
 #webform-component-email input[type="text"] { width: 100%; }
 #webform-component-comment-or-question textarea { height: 76px; width: 100%; }
 .front .webform-container-inline label { display: block; }
-.not-logged-in .resizable-textarea .grippie { display: none; }
+.resizable-textarea .grippie { display: none; }
 footer .block-block-12 { border: 2px solid #c0c0c0; }
 footer #map-canvas { height: 198px; width: 100%; }
