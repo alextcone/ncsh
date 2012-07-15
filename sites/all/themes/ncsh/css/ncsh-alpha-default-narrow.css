@@ -17,6 +17,7 @@ body.front { font: 13px/1.5 Helvetica, Arial, sans-serif; }
 .front .region-sidebar-second { margin-top: 30px; }
 .front .zone-postscript h2.block-title  { font-size: 18px; }
 .not-front .container-12 .grid-6 { width: 700px !important; }
+.context-about .section-content img#desks { display: block; }
 .context-about td { font-size: 17px; width: 140px; }
 
 /* Footer */
