@@ -3,6 +3,7 @@
 body.front { font: 14px/1.6 Helvetica, Arial, sans-serif; }
 .front h4 { font-size: 24px; line-height: 1.4; }
 .front p { font-size: 19px; }
+.not-front p { font-size: 20px; }
 #logo { display: block; margin: 10px auto; max-width: 354px; }
 .zone-menu-wrapper ul.menu li.last { background-color: #f5f5f5; *background-color: #e6e6e6; background-image: -ms-linear-gradient(top, #f6f6f6, #e6e6e6); background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f6f6f6), to(#e6e6e6)); background-image: -webkit-linear-gradient(top, #f6f6f6, #e6e6e6); background-image: -o-linear-gradient(top, #f6f6f6, #e6e6e6); background-image: linear-gradient(top, #f6f6f6, #e6e6e6); background-image: -moz-linear-gradient(top, #f6f6f6, #e6e6e6); background-repeat: repeat-x; filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffffff', endColorstr='#e6e6e6', GradientType=0); filter: progid:dximagetransform.microsoft.gradient(enabled=false);}
 .zone-menu-wrapper ul.menu li.last:hover { color: #333333; text-decoration: none; background-color: #e6e6e6; *background-color: #d9d9d9; /* Buttons in IE7 don't get borders, so darken on hover */ background-position: 0 -15px; -webkit-transition: background-position 0.1s linear; -moz-transition: background-position 0.1s linear; -ms-transition: background-position 0.1s linear; -o-transition: background-position 0.1s linear; transition: background-position 0.1s linear; }
@@ -13,8 +14,9 @@ body.front { font: 14px/1.6 Helvetica, Arial, sans-serif; }
 .front .section-content .container-12 .grid-4 { width: 460px; }
 .front .region-sidebar-second { margin-top: 30px; }
 .front .block-7 { margin-top: 20px; }
-.front h2.block-title { font-size: 24px; line-height: 1.4; }
+.front .zone-postscript h2.block-title { font-size: 24px; line-height: 1.4; }
 .not-front .container-12 .grid-6 { width: 1180px !important; }
+.context-about td { font-size: 20px; width: 236px; }
 
 /* Footer */
 
