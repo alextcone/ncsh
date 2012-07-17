@@ -87,6 +87,7 @@ textarea, input[type="text"], input[type="password"], input[type="datetime"], in
 .front .block-10 h2.block-title { color: #ffc867; }
 .front .zone-content { margin-bottom: 20px; }
 .front .zone-postscript { margin-bottom: 50px; }
+.front .region-postscript-first { margin-bottom: 30px; }
 
 /* About */
 
@@ -97,11 +98,18 @@ textarea, input[type="text"], input[type="password"], input[type="datetime"], in
 .zone-header-wrapper ul.menu li a { color: #58a2fe; font-weight: bold; text-decoration: none; text-transform: none; }
 .zone-header-wrapper ul.menu li a:hover { color: #3c93ff; }
 .zone-header-wrapper ul.menu li a.active { color: #58a2fe; }
-.context-about .section-content img { display: block; margin: 0 auto; width: 100%; }
+.context-about .section-content img, .context-espanol .section-content img { display: block; margin: 0 auto; width: 100%; }
 .context-about .section-content img#desks { display: none; }
-.context-about .section-content img.clip { display: inline; float: left; margin: 6px 20px 4px 0; width: 40px; }
+.context-about .section-content img.clip, .context-espanol .section-content img.clip  { display: inline; float: left; margin: 6px 20px 4px 0; width: 40px; }
 .context-about td { font-family: 'LinuxLibertineRegular', serif; text-align: center; }
 .context-about .first-letter { color: #ffc867; font-size: 34px; }
+
+/* Espanol */
+
+.context-espanol .zone-menu-wrapper { display: none; }
+.page-faq-page-10 .zone-menu-wrapper ul.menu li.leaf { visibility: hidden; }
+.page-faq-page-10 .zone-menu-wrapper ul.menu li.last { visibility: visible; }
+
 
 /* FAQ List */
 
@@ -112,7 +120,7 @@ textarea, input[type="text"], input[type="password"], input[type="datetime"], in
 
 /* All Subpage Content Zone */
 
-.context-support .block-block-14 p { margin: 0; }
+.context-support p { margin: 0; }
 
 /* All Subpage Sidebar Second */
 
@@ -123,15 +131,17 @@ textarea, input[type="text"], input[type="password"], input[type="datetime"], in
 .not-front .region-sidebar-second .block-inner { border: 1px solid #c0c0c0; padding: 20px 20px 0; }
 .context-board .region-sidebar-second .views-field-field-date { margin: 10px 0; }
 .not-front .region-sidebar-second a.btn { margin-bottom: 20px; }
+.region-sidebar-second .pager { margin-bottom: 20px; }
+.region-sidebar-second .pager li.pager-previous a{ width: 80px; }
 
 /* Sitewide Footer */
 
-footer { background: #f6f6f6; border-top: 1px solid #c0c0c0; color: #c0c0c0; }
+footer { background: #f6f6f6; border-top: 1px solid #c0c0c0; color: #6f6f6f; }
 footer a:link, footer a:visited { color: #c0c0c0; }
 footer ul li.leaf { list-style-image: none; list-style-type: none; }
 footer ul.menu li { margin-left: 0; }
 footer .region-footer-first, footer .region-footer-second, footer .region-footer-third, footer .region-footer-fourth { margin-top: 50px; margin-bottom: 100px;}
-footer .block-webform h2 { color: #C0C0C0; font-size: 14px; padding-top: 2px; text-align: left; text-transform: capitalize; }
+footer .block-webform h2 { color: #6f6f6f; font-size: 14px; padding-top: 2px; text-align: left; text-transform: capitalize; }
 #webform-component-email input[type="text"] { width: 100%; }
 #webform-component-comment-or-question textarea { height: 76px; width: 100%; }
 .front .webform-container-inline label { display: block; }
