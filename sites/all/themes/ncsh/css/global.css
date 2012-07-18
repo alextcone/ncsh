@@ -103,6 +103,7 @@ textarea, input[type="text"], input[type="password"], input[type="datetime"], in
 .context-about .section-content img.clip, .context-espanol .section-content img.clip  { display: inline; float: left; margin: 6px 20px 4px 0; width: 40px; }
 .context-about td { font-family: 'LinuxLibertineRegular', serif; text-align: center; }
 .context-about .first-letter { color: #ffc867; font-size: 34px; }
+.context-about .block-block-21 h4 { margin-bottom: 20px; }
 
 /* Espanol */
 
@@ -118,9 +119,11 @@ textarea, input[type="text"], input[type="password"], input[type="datetime"], in
 .context-faq-page .faq-question { font-family: 'LinuxLibertineRegular', serif; font-size: 20px; margin: 0 0 20px 0; }
 .context-faq-page .faq-answer { border-bottom: 1px solid #f0f0f0; margin-bottom: 22px; }
 
-/* All Subpage Content Zone */
+/* Misc Subpage Content Zone */
 
 .context-support p { margin: 0; }
+.context-board .views-field-title, .context-board .views-field-field-position { font-family: 'LinuxLibertineRegular', serif; font-size: 20px; margin: 0 0 20px 0; }
+.context-board .views-field-field-position { color: #6f6f6f; }
 
 /* All Subpage Sidebar Second */
 
