@@ -136,7 +136,8 @@ textarea, input[type="text"], input[type="password"], input[type="datetime"], in
 .not-front .region-sidebar-second h2.block-title { text-align: left; }
 .not-front .region-sidebar-second p { font: 14px/1.6 Helvetica, Arial, sans-serif; }
 .not-front .region-sidebar-second .block-inner { border: 1px solid #c0c0c0; padding: 20px 20px 0; }
-.context-board .region-sidebar-second .views-field-field-date { margin: 10px 0; }
+.context-board .region-sidebar-second .view-header { margin-bottom: 10px; }
+.context-board .region-sidebar-second .views-row { margin-bottom: 6px; padding-bottom: 6px; }
 .not-front .region-sidebar-second a.btn { margin-bottom: 20px; }
 .region-sidebar-second .pager { margin-bottom: 20px; }
 .region-sidebar-second .pager li.pager-previous a{ width: 80px; }
