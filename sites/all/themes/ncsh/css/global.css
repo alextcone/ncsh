@@ -122,9 +122,9 @@ textarea, input[type="text"], input[type="password"], input[type="datetime"], in
 
 /* FAQ List */
 
-.context-faq-page .faq-answer ol, .context-faq-page .faq-answer ul, .context-faq ol, .context-faq ul { font-family: 'LinuxLibertineRegular', serif; font-size: 20px; list-style-type: disc; margin-bottom: 20px; padding: 0 0 0 18px; }
-.context-faq-page .faq-answer li, .context-faq li { padding-left: 6px; }
-.context-faq-page li a.active, .context-faq li a.active { color: #58a2fe; font-family: 'LinuxLibertineRegular', serif; font-size: 20px; margin: 0 0 20px 0; }
+.context-faq-page .faq-answer ol, .context-faq-page .faq-answer ul, .context-faq .section-content ol, .context-faq .section-content ul { font-family: 'LinuxLibertineRegular', serif; font-size: 20px; list-style-type: disc; margin-bottom: 20px; padding: 0 0 0 18px; }
+.context-faq-page .faq-answer li, .context-faq .section-content li { padding-left: 6px; }
+.context-faq-page li a.active, .context-faq .section-content li a.active { color: #58a2fe; font-family: 'LinuxLibertineRegular', serif; font-size: 20px; margin: 0 0 20px 0; }
 .context-faq-page .faq-category-menu { border-bottom: 1px solid #c0c0c0; margin-bottom: 20px; padding-bottom: 14px; }
 .context-faq-page .faq-question { font-family: 'LinuxLibertineRegular', serif; font-size: 20px; margin: 0 0 20px 0; }
 .context-faq-page .faq-answer { border-bottom: 1px solid #f0f0f0; margin-bottom: 22px; }
