@@ -122,8 +122,8 @@ textarea, input[type="text"], input[type="password"], input[type="datetime"], in
 
 /* FAQ List */
 
-.context-faq-page .faq-answer ol, .context-faq-page .faq-answer ul, .context-faq faq-answer ol, .context-faq .faq-answer ul { font-family: 'LinuxLibertineRegular', serif; font-size: 20px; list-style-type: disc; margin-bottom: 20px; padding: 0 0 0 18px; }
-.context-faq-page .faq-answer li, .context-faq .faq-answer { padding-left: 6px; }
+.context-faq-page .faq-answer ol, .context-faq-page .faq-answer ul, .context-faq ol, .context-faq ul { font-family: 'LinuxLibertineRegular', serif; font-size: 20px; list-style-type: disc; margin-bottom: 20px; padding: 0 0 0 18px; }
+.context-faq-page .faq-answer li, .context-faq li { padding-left: 6px; }
 .context-faq-page li a.active, .context-faq li a.active { color: #58a2fe; font-family: 'LinuxLibertineRegular', serif; font-size: 20px; margin: 0 0 20px 0; }
 .context-faq-page .faq-category-menu { border-bottom: 1px solid #c0c0c0; margin-bottom: 20px; padding-bottom: 14px; }
 .context-faq-page .faq-question { font-family: 'LinuxLibertineRegular', serif; font-size: 20px; margin: 0 0 20px 0; }
