@@ -17,7 +17,7 @@ jQuery(function( $ ){
 		event.stopPropagation();
 	});
 });
-
-jQuery(function( $ ){$('.page-faq-page-10 h1').replaceWith('<h1 class="title" id="page-title">Preguntas Más Frecuentes</h1>');});
-
+jQuery(function( $ ){$('.page-faq-page-10 h1').replaceWith('<h1 class="title" id="page-title">Preguntas Más Frecuentes - Inscripci&oacute;n</h1>');});
 jQuery(function( $ ){$(".page-faq-page-10 a:contains('Back to Top')").text('Volver al principio');});
+jQuery(function( $ ){$('.page-faq-page-15 h1').replaceWith('<h1 class="title" id="page-title">Preguntas Más Frecuentes - Programas Especiales</h1>');});
+jQuery(function( $ ){$(".page-faq-page-15 a:contains('Back to Top')").text('Volver al principio');});
