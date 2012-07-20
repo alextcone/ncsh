@@ -83,7 +83,7 @@ filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffc867',endCo
 
 .flex-nav-container { margin-top: 30px; }
 .flexslider { box-shadow: 0 1px 4px rgba(0, 0, 0, .2); margin-bottom: 30px; -webkit-border-radius: 0; -moz-border-radius: 0; -o-border-radius: 0; border-radius: 0; }
-.front .container-12 .prefix-1 { padding-left: 20px !important; }
+.front .container-12 .prefix-1 { padding-left: 0 !important; }
 .front .region-sidebar-second { margin-top: 0px; }
 .views-row { border-bottom: 1px solid #f0f0f0; margin-bottom: 12px; padding-bottom: 12px; }
 .front .views-row-last { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }

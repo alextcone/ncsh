@@ -12,6 +12,7 @@ body.front { font: 14px/1.6 Helvetica, Arial, sans-serif; }
 .zone-menu-wrapper ul.menu li.last a { color: #58a2fe; }
 .front .flex-nav-container { margin-top: 42px; }
 .front .section-content .container-12 .grid-4 { width: 460px; }
+.front .container-12 .prefix-1 { padding-left: 20px !important; }
 .front .region-postscript-first { margin-bottom: 0; }
 .front .region-sidebar-second { margin-top: 30px; }
 .front .block-7 { margin-top: 20px; }
